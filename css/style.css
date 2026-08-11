@@ -346,3 +346,69 @@ textarea:focus-visible {
 ========================================================= */
 .section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .section--alt { background: var(--white); border-top: 1px solid var(--grid-line); border-bottom: 1px solid var(--grid-line); }
+
+/* =========================================================
+   SKILLS
+========================================================= */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+.skill-card {
+  border: 1px solid var(--grid-line);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  background: var(--paper);
+  position: relative;
+}
+.skill-index {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--blue);
+  position: absolute;
+  top: 1rem;
+  right: 1.1rem;
+}
+.skill-name { font-size: 1.05rem; margin-bottom: 0.5rem; }
+.skill-desc { font-size: 0.92rem; color: #4A5563; }
+
+/* =========================================================
+   PROJECTS
+========================================================= */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.project-card {
+  border: 1px solid var(--grid-line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+.project-media {
+  background: var(--navy);
+  color: rgba(255,255,255,0.6);
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-body { padding: 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; flex: 1; }
+.project-title { font-size: 1.05rem; }
+.project-desc { font-size: 0.92rem; color: #4A5563; flex: 1; }
+.project-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.project-tags li {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  border: 1px solid var(--grid-line);
+  border-radius: 2px;
+  padding: 0.15rem 0.5rem;
+  color: var(--blue);
+}
