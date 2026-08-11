@@ -249,5 +249,49 @@
           </li>
         </ol>
       </div>
+    </section>
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner">
+        <p class="eyebrow"><span class="tag">SEC.06</span> Contact</p>
+        <h2 id="contact-title" class="section-title">Let's talk</h2>
+        <p class="contact-intro">Have a project in mind, or just want to say hello? Send a message below.</p>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <ul class="contact-links">
+          <li><a href="mailto:nayabmaryam40@gmail.com">nayabmaryam40@gmail.com</a></li>
+          <li><a href="https://github.com/MindfullLearner" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="www.linkedin.com/in/nayab-maryam-70960134a" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
   </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Nayab Maryam. Built with semantic HTML, CSS &amp; JavaScript.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
 </body>
+</html>  
