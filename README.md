@@ -11,7 +11,7 @@
 
 ## 📝 Project Description
 
-A fully responsive, animated personal portfolio website built from scratch using HTML, CSS, and JavaScript. The website is designed to showcase the skills, projects, certifications, and experience of **Anam Maryam**, a Software Engineering student aspiring to become a Web Developer or QA Engineer.
+A fully responsive, animated personal portfolio website built from scratch using HTML, CSS, and JavaScript. The website is designed to showcase the skills, projects, certifications, and experience of **Nayab Maryam**, a Software Engineering student aspiring to become a Web Developer or QA Engineer.
 
 The portfolio features a dark navy theme with neon purple and cyan accents, smooth scroll animations, a typing role effect, an interactive particle background, animated skill bars, a project showcase grid, an alternating experience timeline, and a contact form — all without any external frameworks or libraries beyond Font Awesome icons and Google Fonts.
 
@@ -93,50 +93,49 @@ portfolio/
 > Replace the placeholder text below with your actual screenshots after running the project.
 
 ### Hero / Home Section
-```
+
 ![Hero Section](assests/Hero.png)
 
-```
+
 
 ### About Section
-```
+
 ![About Section](assests/About.png)
-```
+
 
 ### Skills Section
-```
+
 ![Skills Section](assests/Skills.png)
-```
+
 
 ### Projects Section
-```
+
 ![Project Section](assests/Project.png)
-```
+
 
 ### Experience / Education Section
-```
+
 ![Experience Section](assests/Experience.png)
-```
 
 ### Contact Section
-```
+
 ![Contact Section](assests/Contact.png)
-```
+
 
 ### Footer
-```
+
 ![Footer Section](assests/Footer.png)
-```
+
 
 ### Desktop View
-```
-[ Screenshot: Full-width desktop browser view at 1200px+ ]
-```
+
+![Desktop View](assests/Desktop.png)
+
 
 ### Mobile View
-```
-[ Screenshot: Mobile view at 375px showing hamburger menu and stacked layout ]
-```
+
+![Mobile View](assests/Mobile.png)
+
 
 ---
 
