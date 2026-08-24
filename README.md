@@ -24,8 +24,6 @@ The portfolio features a dark navy theme with neon purple and cyan accents, smoo
 | HTML5 | Page structure and semantic markup |
 | CSS3 | Styling, animations, flexbox, grid, responsive design |
 | JavaScript (ES6) | Typing effect, particles, scroll reveal, form handling |
-| PHP | Contact form backend processing |
-| MySQL | Database layer (used in referenced projects) |
 | Google Fonts | Space Grotesk + Fira Code typography |
 | Font Awesome 6 | Icon library for UI elements |
 | Git / GitHub | Version control and repository hosting |
@@ -90,7 +88,7 @@ portfolio/
 
 ## 📸 Screenshots
 
-> Replace the placeholder text below with your actual screenshots after running the project.
+
 
 ### Hero / Home Section
 
@@ -150,7 +148,7 @@ portfolio/
 2. Open the project folder.
 3. Double-click `index.html` to open it in your default browser.
 
-> ⚠️ Note: The contact form requires a server to run PHP. For the static front-end only, this method works perfectly.
+
 
 ---
 
@@ -177,25 +175,13 @@ portfolio/
 
 ---
 
-### Option 4 — Run with a Local PHP Server (for Contact Form)
-
-1. Install [XAMPP](https://www.apachefriends.org/) or [WAMP](https://www.wampserver.com/).
-2. Place the `portfolio/` folder inside the `htdocs/` directory (XAMPP) or `www/` (WAMP).
-3. Start Apache from the control panel.
-4. Open your browser and go to:
-   ```
-   http://localhost/portfolio/
-   ```
-
----
-
 ## 🔗 GitHub Repository
 
 ```
 https://github.com/MindfullLearner/portfolio
 ```
 
-> **Note:** Update this link with your actual GitHub repository URL before submitting.
+
 
 ---
 
